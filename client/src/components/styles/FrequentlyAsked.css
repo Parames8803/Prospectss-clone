@@ -1,0 +1,34 @@
+.freqAskedQuest{
+    margin: 5%;
+}
+
+.freqAskedQuest .title {
+    text-align: center;
+    font-size: 60px;
+    color: #805EE3;
+    padding: 30px;
+}
+.freqAskedQuest .questions{
+    margin: 0px 10%;
+}
+.freqAskedQuest .questions .quest{
+    border: .5px solid gray;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr .1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "h2 span";
+}
+.freqAskedQuest .questions .quest h2{
+    grid-area: h2;
+    font-size: 25px;
+}
+.freqAskedQuest .questions .quest span{
+    grid-area: span;
+    transition: 2s;
+}
+.freqAskedQuest .questions .ans{
+    border: .5px solid gray;
+    padding: 20px;
+}

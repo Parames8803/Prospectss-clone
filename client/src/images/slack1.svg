@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="376.4" height="376.4" viewBox="0 0 376.4 376.4">
+  <g id="Slack_Blue" transform="translate(-11.8 -11.8)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="188.2" cy="188.2" r="188.2" transform="translate(11.8 11.8)" fill="#e01e5a"/>
+    <path id="Path_1" data-name="Path 1" d="M293,330.23H233.13a15.33,15.33,0,0,1-15.31-15.31V231.31A15.33,15.33,0,0,1,233.13,216H288l20.32,18.5v80.42A15.33,15.33,0,0,1,293,330.23ZM233.13,224.82a6.5,6.5,0,0,0-6.49,6.49v83.61a6.5,6.5,0,0,0,6.49,6.49H293a6.5,6.5,0,0,0,6.49-6.49V238.4l-14.91-13.58Z" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="50.95" height="6.92" transform="translate(237.59 251.71)" fill="#fff"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="50.95" height="6.92" transform="translate(237.59 264.6)" fill="#fff"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="50.95" height="6.92" transform="translate(237.59 277.5)" fill="#fff"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="50.95" height="6.92" transform="translate(237.59 290.39)" fill="#fff"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="50.95" height="6.92" transform="translate(237.59 303.29)" fill="#fff"/>
+    <path id="Path_2" data-name="Path 2" d="M284.64,220.43l-.16,18.34h22Z" fill="#fff"/>
+    <path id="Path_3" data-name="Path 3" d="M94,209.21a22.3,22.3,0,0,1,0-44.6h22.3v22.3A22.33,22.33,0,0,1,94,209.21Zm0-37.82a15.52,15.52,0,1,0,15.51,15.517V171.39Z" fill="#fff"/>
+    <path id="Path_4" data-name="Path 4" d="M141.29,256.56a22.33,22.33,0,0,1-22.3-22.3V186.91a22.307,22.307,0,1,1,44.615,0l0,47.35a22.33,22.33,0,0,1-22.31,22.3Zm0-85.17a15.54,15.54,0,0,0-15.51,15.52v47.35a15.52,15.52,0,0,0,31,0V186.91A15.54,15.54,0,0,0,141.29,171.39Z" fill="#fff"/>
+    <path id="Path_5" data-name="Path 5" d="M163.6,114.37H141.29a22.3,22.3,0,1,1,22.31-22.3ZM141.29,76.55a15.52,15.52,0,0,0,0,31h15.52V92.07a15.53,15.53,0,0,0-15.52-15.52Z" fill="#fff"/>
+    <path id="Path_6" data-name="Path 6" d="M141.29,161.72H94a22.3,22.3,0,1,1,0-44.6h47.34a22.3,22.3,0,0,1,0,44.6ZM94,123.9a15.52,15.52,0,1,0,0,31h47.34a15.52,15.52,0,1,0,0-31Z" fill="#fff"/>
+    <path id="Path_7" data-name="Path 7" d="M236.13,161.72h-22.3v-22.3a22.3,22.3,0,1,1,22.3,22.3Zm-15.51-6.79h15.51a15.52,15.52,0,1,0-15.51-15.513Z" fill="#fff"/>
+    <path id="Path_8" data-name="Path 8" d="M188.79,161.72a22.33,22.33,0,0,1-22.31-22.3V92.07a22.308,22.308,0,1,1,44.615,0l-.005,47.35a22.33,22.33,0,0,1-22.3,22.3Zm0-85.17a15.53,15.53,0,0,0-15.52,15.52v47.35a15.52,15.52,0,0,0,31,0V92.07a15.53,15.53,0,0,0-15.48-15.52Z" fill="#fff"/>
+    <path id="Path_9" data-name="Path 9" d="M188.79,256.56a22.33,22.33,0,0,1-22.31-22.3V212h22.31a22.3,22.3,0,0,1,0,44.6Zm-15.52-37.82v15.52a15.52,15.52,0,1,0,15.52-15.52Z" fill="#fff"/>
+    <path id="Path_10" data-name="Path 10" d="M236.13,209.21H188.79a22.3,22.3,0,0,1,0-44.6h47.34a22.3,22.3,0,0,1,0,44.6Zm-47.34-37.82a15.52,15.52,0,1,0,0,31h47.34a15.52,15.52,0,0,0,0-31Z" fill="#fff"/>
+  </g>
+</svg>

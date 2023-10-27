@@ -1,0 +1,12 @@
+.limitedOffer{
+    height: 30px;
+    background-color: rgb(237, 175, 17);
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.limitedOffer span{
+    color: #41386B;
+}

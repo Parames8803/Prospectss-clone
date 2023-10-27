@@ -1,0 +1,42 @@
+
+.formContainer {
+    text-align: center;
+    background-color: #EFF1FF;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.formContainer .title {
+    text-align: center;
+    color: #2DCE89;
+    font-size: 35px;
+}
+
+.formContainer .users {
+    padding: 20px 0px;
+}
+
+.formContainer form {
+    background-color: white;
+    box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 10px 30%;
+}
+
+.formContainer form .error {
+    background-color: red;
+    color: white;
+}
+
+/* .formContainer form input {} */
+
+/* .formContainer form p {} */
+
+/* .formContainer form button {} */
+
+/* .formContainer .acc {} */
+
+/* .formContainer .copyright {} */

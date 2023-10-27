@@ -1,0 +1,170 @@
+.content {
+    background-color: white;
+    box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2% 3%;
+    display: flex;
+    transition-timing-function: ease;
+    transition: width 5s;
+    z-index: 1;
+}
+
+/* .modal{
+    transition: 2s;
+    transition-timing-function: ease;
+} */
+
+.col1{
+    margin-right: 20px;
+}
+
+.col1 .tools{
+    display: flex;
+}
+
+.col1 .tools{
+    font-size: 25px;
+    color: green;
+}
+
+.col1 .tools .title{
+    color: green;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.col1 p{
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: black;
+}
+
+/*******************************************/
+.col2{
+    margin-right: 20px;
+}
+
+.col2 .tools{
+    display: flex;
+}
+
+.col2 .tools{
+    font-size: 25px;
+    color: rgb(0, 123, 255);
+}
+
+.col2 .tools .title{
+    color: rgb(0, 123, 255);
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.col2 p{
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+.col2 a{
+    text-decoration: none;
+    color: black;
+}
+
+/*******************************************/
+
+.col3{
+    margin-right: 20px;
+}
+
+.col3 .tools{
+    display: flex;
+}
+
+.col3 .tools{
+    font-size: 25px;
+    color: rgb(36, 49, 169);
+}
+
+.col3 .tools .title{
+    color: rgb(0, 123, 255);
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.col3 p{
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+.col3 a{
+    text-decoration: none;
+    color: black;
+}
+
+/*********************************************/
+.col4{
+    margin-right: 20px;
+}
+
+.col4 .tools{
+    display: flex;
+}
+
+.col4 .tools{
+    font-size: 25px;
+}
+
+.col4 .tools .title{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.col4 p{
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+.col4 a{
+    text-decoration: none;
+    color: black;
+}
+
+/********************************************/
+
+.col5{
+    margin-right: 20px;
+}
+
+.col5 .tools{
+    display: flex;
+}
+
+.col5 .tools{
+    font-size: 25px;
+}
+
+.col5 .tools .title{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.col5 p{
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+.col5 a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,3 @@
+"id","u_user_name","u_user_email","u_user_pass","u_status","createdAt","updatedAt","deletedAt","roleId"
+1,"prem","prem@gmail.com","$2b$10$RSo25PO4SiLUEdSJvwgfeeIV6STgwTS21H8H2OkzjR186RNr47o2.",1,"2023-06-18T17:04:03.000Z","2023-06-20T03:42:50.000Z",,3
+2,"ealp","ealp@gmail.com","$2b$10$hoyzUbKQ1GUz91RfpCmK4uslkPKRgQcYTMDqoDxZA5XVHsHCQ8aI6",1,"2023-06-19T07:27:32.000Z","2023-06-20T03:44:47.000Z",,2

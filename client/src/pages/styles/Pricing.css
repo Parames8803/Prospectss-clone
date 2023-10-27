@@ -1,0 +1,615 @@
+.pricing {
+    margin: 5%;
+}
+
+.pricing .intro h1 {
+    text-align: center;
+    color: #805EE3;
+    font-size: 60px;
+}
+
+.pricing .desc p {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px;
+}
+
+.pricing .pricingBtns {
+    text-align: center;
+    margin: 50px;
+}
+.pricing .wantCredits{
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+.pricing .wantCredits h1 {
+    color: #696CE4;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 30px 0px;
+}
+
+.pricing .wantCredits h1 span{
+    color: black;
+}
+
+.pricing .wantCredits button {
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 25px;
+    color: #696CE4;
+    background-color: white;
+    border: 1px solid #696CE4;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.pricing .wantCredits button:hover{
+    background-color: #2DCE89;
+    color: white;
+    border: 1px solid #2DCE89;
+}
+
+.pricing .pricingBtns button {
+    font-size: 20px;
+    padding: 20px 40px;
+    margin: 0px 10px;
+    color: #696CE4;
+    border: none;
+    box-shadow: -1px 1px 21px -3px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -1px 1px 21px -3px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -1px 1px 21px -3px rgba(0, 0, 0, 0.42);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pricing .pricingBtns button:hover {
+    color: white;
+    background-color: #696CE4;
+}
+
+
+
+.plans {
+    display: flex;
+    /* margin: 5%; */
+}
+
+.plans .container {
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: grid;
+    height: 800px;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr .1fr .1fr 3fr .1fr;
+    grid-template-areas:
+        "title"
+        "money"
+        "credits"
+        "links"
+        "getPlan";
+}
+
+.plans .container .title {
+    grid-area: title;
+}
+
+.plans .container .title h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #696CE4;
+}
+
+.plans .container .money {
+    grid-area: money;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.plans .container .money h2 {
+    font-size: 45px;
+}
+
+.plans .container .money p {
+    padding-top: 28px;
+    font-size: 15px;
+}
+
+.plans .container .credits {
+    grid-area: credits;
+}
+
+.plans .container .credits h1 {
+    color: #696CE4;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.plans .container .credits p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.plans .container .access {
+    grid-area: links;
+    padding-top: 20px;
+}
+
+.plans .container .access .link {
+    display: flex;
+    font-size: 20px;
+    /* padding: 5px 0px; */
+}
+
+.plans .container .access .link .iconTick {
+    padding-right: 5px;
+    color: #2DCE89;
+    padding-top: 5px;
+}
+
+.plans .container .access .link .iconX {
+    color: #CF3D3D;
+    padding-top: 5px;
+}
+
+
+.plans .container .getPlan {
+    grid-area: getPlan;
+    align-items: center;
+    text-align: center;
+}
+
+.plans .container .getPlan button {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.plans .container .getPlan button:hover {
+    color: white;
+    background-color: #2DCE89;
+    border: 1px solid #2DCE89;
+    font-weight: bold;
+}
+
+
+.unlimitedContainer {
+    background: linear-gradient(to top right, #0099ff 0%, #ff0066 100%);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: grid;
+    height: 800px;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr .1fr .1fr 3fr .1fr;
+    grid-template-areas:
+        "title"
+        "money"
+        "credits"
+        "links"
+        "getPlan";
+}
+
+.unlimitedContainer .title {
+    grid-area: title;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.unlimitedContainer .title h3 {
+    font-size: 35px;
+    text-align: center;
+    color: #696CE4;
+}
+
+.unlimitedContainer .money {
+    grid-area: money;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.unlimitedContainer .money h2 {
+    font-size: 45px;
+}
+
+.unlimitedContainer .money p {
+    padding-top: 28px;
+    font-size: 15px;
+}
+
+.unlimitedContainer .credits {
+    grid-area: credits;
+    background-color: white;
+}
+
+.unlimitedContainer .credits h1 {
+    color: #696CE4;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.unlimitedContainer .credits p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.unlimitedContainer .access {
+    grid-area: links;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.unlimitedContainer .access .link {
+    display: flex;
+    font-size: 20px;
+    /* padding: 5px 0px; */
+}
+
+.unlimitedContainer .access .link .iconTick {
+    padding-right: 5px;
+    color: #2DCE89;
+    padding-top: 5px;
+}
+
+.unlimitedContainer .access .link .iconX {
+    color: #CF3D3D;
+    padding-top: 5px;
+}
+
+
+.unlimitedContainer .unGetPlan {
+    grid-area: getPlan;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.unlimitedContainer .unGetPlan button {
+    width: 100%;
+    border: 1px solid #2DCE89;
+    background-color: #2DCE89;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.unlimitedContainer .unGetPlan button:hover {
+    color: white;
+    background-color: #696CE4;
+    border: 1px solid #696CE4;
+    font-weight: bold;
+}
+
+/**************************************************************************************/
+
+.plans1 {
+    display: flex;
+}
+
+.plans1 .container {
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: grid;
+    height: 420px;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr .1fr .1fr .1fr .1fr;
+    grid-template-areas:
+        "title"
+        "money"
+        "credits"
+        "links"
+        "getPlan";
+}
+
+.plans1 .container .title {
+    grid-area: title;
+}
+
+.plans1 .container .title h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #696CE4;
+}
+
+.plans1 .container .money {
+    grid-area: money;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.plans1 .container .money h2 {
+    font-size: 45px;
+}
+
+.plans1 .container .money p {
+    padding-top: 28px;
+    font-size: 15px;
+}
+
+.plans1 .container .credits {
+    grid-area: credits;
+}
+
+.plans1 .container .credits h1 {
+    color: #696CE4;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.plans1 .container .credits p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.plans1 .container .access {
+    grid-area: links;
+    padding-top: 20px;
+}
+
+.plans1 .container .access .link {
+    display: flex;
+    font-size: 20px;
+    /* padding: 5px 0px; */
+}
+
+.plans1 .container .access .link .iconTick {
+    padding-right: 5px;
+    color: #2DCE89;
+    padding-top: 5px;
+}
+
+.plans1 .container .access .link .iconX {
+    color: #CF3D3D;
+    padding-top: 5px;
+}
+
+
+.plans1 .container .getPlan {
+    grid-area: getPlan;
+    align-items: center;
+    text-align: center;
+}
+
+.plans1 .container .getPlan button {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.plans1 .container .getPlan button:hover {
+    color: white;
+    background-color: #2DCE89;
+    border: 1px solid #2DCE89;
+    font-weight: bold;
+}
+
+
+.plans1 .unlimitedContainer {
+    background: linear-gradient(to top right, #0099ff 0%, #ff0066 100%);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: grid;
+    height: 420px;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr .1fr .1fr .1fr .1fr;
+    grid-template-areas:
+        "title"
+        "money"
+        "credits"
+        "links"
+        "getPlan";
+}
+
+.plans1 .unlimitedContainer .title {
+    grid-area: title;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.plans1 .unlimitedContainer .title h3 {
+    font-size: 35px;
+    text-align: center;
+    color: #696CE4;
+}
+
+.plans1 .unlimitedContainer .money {
+    grid-area: money;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.plans1 .unlimitedContainer .money h2 {
+    font-size: 45px;
+}
+
+.plans1 .unlimitedContainer .money p {
+    padding-top: 28px;
+    font-size: 15px;
+}
+
+.plans1 .unlimitedContainer .credits {
+    grid-area: credits;
+    background-color: white;
+}
+
+.plans1 .unlimitedContainer .credits h1 {
+    color: #696CE4;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.plans1 .unlimitedContainer .credits p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.plans1 .unlimitedContainer .access {
+    grid-area: links;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.plans1 .unlimitedContainer .access .link {
+    display: flex;
+    font-size: 20px;
+    /* padding: 5px 0px; */
+}
+
+.plans1 .unlimitedContainer .access .link .iconTick {
+    padding-right: 5px;
+    color: #2DCE89;
+    padding-top: 5px;
+}
+
+.plans1 .unlimitedContainer .access .link .iconX {
+    color: #CF3D3D;
+    padding-top: 5px;
+}
+
+
+.plans1 .unlimitedContainer .unGetPlan {
+    grid-area: getPlan;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.plans1 .unlimitedContainer .unGetPlan button {
+    width: 100%;
+    border: 1px solid #2DCE89;
+    background-color: #2DCE89;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.plans1 .unlimitedContainer .unGetPlan button:hover {
+    color: white;
+    background-color: #696CE4;
+    border: 1px solid #696CE4;
+    font-weight: bold;
+}
+
+.plans2 {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 50px;
+    position: relative;
+    background-color: white;
+}
+
+.plans2 .limited h2 {
+    text-align: center;
+    background: linear-gradient(to top right, #ff0066 0%, #0099ff 100%);
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: -20px;
+    padding: 10px 20px;
+    left: 90px;
+    border-radius: 10px;
+}
+
+.plans2 .unlimitedContainer {
+    text-align: center;
+    background-color: white;
+}
+
+.plans2 .unlimitedContainer .money {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+}
+
+.plans2 .unlimitedContainer .money h2 {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 25px;
+}
+
+.plans2 .unlimitedContainer .money h2 span {
+    font-size: 10px;
+    padding-top: 15px;
+}
+
+.plans2 .unlimitedContainer .money .discount {
+    font-size: 30px;
+    color: black;
+}
+
+.plans2 .unlimitedContainer {
+    background: linear-gradient(to top right, #0099ff 0%, #ff0066 100%);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: grid;
+    height: 950px;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr .1fr 2fr .1fr;
+    grid-template-areas:
+        "title"
+        "money"
+        "links"
+        "getPlan";
+}
+
+
+.plans2 .unlimitedContainer .title h3 {
+    padding-top: 30px;
+}
+
+.plans2 .unlimitedContainer .access {
+    background-color: white;
+}
+
+.plans2 .unlimitedContainer .access .link {
+    font-size: 25px;
+    padding: 5px 10px;
+}

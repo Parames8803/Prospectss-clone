@@ -1,0 +1,46 @@
+.slack{
+    background-color: rgb(250, 232, 236);
+    margin: 10px 5%;
+    padding: 15px 0px;
+    border: 1px solid rgb(227, 240, 236);
+    border-radius: 20px;
+    /* background-color: blueviolet; */
+    padding: 20px;
+}
+
+.slack .title{
+    color: crimson;
+    text-align: center;
+}
+
+.slack .links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "tool";
+    place-items: center;
+}
+
+.slack .links .tool a{
+    grid-area: tool;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.slack .links .tool a img{
+    width: 58px;
+    height: 58px;
+    margin-top: 15px;
+}
+
+.tool .toolDesc{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.tool .toolDesc h2{
+    font-size: 20px;
+}

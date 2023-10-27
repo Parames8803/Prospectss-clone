@@ -1,0 +1,180 @@
+.promote .growthHack {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "img content";
+}
+
+.promote .growthHack img {
+    grid-area: img;
+}
+
+.promote .growthHack .content {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: none;
+}
+
+.promote .growthHack .content h1 {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.promote .growthHack .content p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.promote .growthHack .content button {
+    width: 80%;
+    background-color: #5F71E4;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #5F71E4;
+    padding: 20px 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.promote .tutorials {
+    background-color: #441667;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tutorial youtube";
+    padding: 20px;
+    place-items: center;
+}
+
+.promote .tutorials .tooltutorial {
+    grid-area: tutorial;
+    padding: 20px;
+    text-align: center;
+}
+
+.promote .tutorials .tooltutorial h2 {
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+}
+.promote .tutorials .tooltutorial button {
+    background-color: #5F71E4;
+    color: white;
+    border: 1px solid #5F71E4;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.promote .tutorials .yttutorial {
+    grid-area: youtube;
+    padding: 20px;
+    place-items: center;
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 25px;
+}
+
+.promote .tutorials .yttutorial h2 {
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.promote .tutorials .yttutorial button {
+    background-color: #5F71E4;
+    color: white;
+    border: 1px solid #5F71E4;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.getAccessApi{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "content img";
+    place-items: center;
+}
+
+.getAccessApi .content{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+}
+
+.getAccessApi .content h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.getAccessApi .content p{
+    font-size: 25px;
+}
+.getAccessApi .content button{
+    background-color: #5F71E4;
+    color: white;
+    border: 1px solid #5F71E4;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 25px;
+    width: 50%;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.getAccessApi img{
+    grid-area: img;
+}
+
+.freeSignup{
+    margin: 6%;
+}
+
+.freeSignup img{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: -30px;
+}
+
+.freeSignup .container{
+    background-color: #5F71E4;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr .4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "content btn";
+    margin-left: 30px;
+    border: 1px solid #5F71E4;
+    border-radius: 20px;
+}
+
+.freeSignup .container h2{
+    grid-area: content;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px 0px 30px 10%;
+}
+.freeSignup .container button{
+    grid-area: btn;
+    background-color: #FFCC00;
+    color: black;
+    border: 1px solid #FFCC00;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 25px;
+    width: 80%;
+    height: 40%;
+    margin: 50px 10px;
+    cursor: pointer;
+}

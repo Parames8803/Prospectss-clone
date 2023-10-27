@@ -1,0 +1,85 @@
+.compare{
+    margin: 5%;
+}
+
+.compare .intro h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 10px 0px;
+}
+
+.compare .desc p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.compare .compareCards{
+    display: flex;
+    margin-top: 30px;
+}
+
+.compare .compareCards .card1{
+    background-color: white;
+    box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    margin-right: 5%;
+}
+
+.compare .compareCards .card1 .imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "img img img"
+    "img img img";
+    padding: 10px;
+    place-items: center;
+}
+
+.compare .compareCards .card1 .imgs img{
+    margin: 10px;
+}
+
+.compare .compareCards .card1 .money h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(47, 47, 47);
+}
+
+.compare .compareCards .card1 p{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.compare .compareCards .card2{
+    background-color: white;
+    box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 1px 3px 24px -1px rgba(0, 0, 0, 0.54);
+    border-radius: 10px;
+    padding: 10px 40px 10px 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #696CE4;
+}
+
+
+.compare .compareCards .card2 .imgs{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.compare .compareCards .card2 .money h1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+.compare .compareCards .card2 p{
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}

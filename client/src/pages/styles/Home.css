@@ -1,0 +1,52 @@
+.home{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.home .intro{
+    padding-top: 50px;
+    font-size: 65px;
+    letter-spacing: 2px;
+}
+
+.home .intro span{
+    font-size: 65px;
+    background: rgb(241, 84, 4);
+    background: linear-gradient(98deg, rgba(241, 84, 4, 1) 0%, rgba(189, 114, 14, 1) 35%, rgba(255, 223, 0, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.home .intro p{
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: lighter;
+}
+
+.home .signup{
+    margin-top: 40px;
+    padding: 20px 35px;
+    font-size: 30px;
+    border: 1px solid rgb(255, 183, 0);
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 280px;
+}
+
+.home .trusted{
+    color: gray;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+/* .home .info{
+    font-size: 35px;
+    padding: 40px 0px;
+}
+.home .info span{
+    color: #8046d0;
+} */

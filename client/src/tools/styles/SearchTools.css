@@ -1,0 +1,43 @@
+.search{
+    background-color: rgb(227, 240, 236);
+    margin: 10px 5%;
+    padding: 15px 0px;
+    border: 1px solid rgb(227, 240, 236);
+    border-radius: 20px;
+    /* background-color: blueviolet; */
+    padding: 20px;
+}
+
+.search .title{
+    color: rgb(0, 99, 69);
+    text-align: center;
+}
+
+.search .links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "tool tool tool"
+    "tool tool tool"
+    "tool tool tool"
+    "tool tool tool";
+}
+
+.search .links .tool a{
+    grid-area: tool;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.tool .toolDesc{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.tool .toolDesc h2{
+    font-size: 20px;
+}

@@ -1,0 +1,25 @@
+ejs - view engine
+app-route-path - file folder structure path
+mailinator - mail Verfication - virtual mail
+
+templates for users creation, forget pass,
+
+forget Pass : 
+link to forget pass
+enter the registered email address for verification
+send the otp to the user email address
+fill the otp in given field then
+check the otp which is send to the user email and user entered otp are same.
+if(same){
+    new Password
+    confirm password
+}else{
+    incorrect otp
+}
+
+
+
+// role name,desc
+// access modules:  for individual roles
+// user creation : in json roles. from frontend
+

@@ -1,0 +1,13 @@
+.toolsBlog{
+    margin: 5%;
+}
+
+.toolsBlog .title{
+    font-size: 55px;
+    text-align: center;
+}
+
+.toolsBlog .desc{
+    text-align: center;
+    font-size: 35px;
+}

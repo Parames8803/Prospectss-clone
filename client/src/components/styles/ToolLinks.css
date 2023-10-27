@@ -1,0 +1,72 @@
+.toolLinks{
+    margin: 4%;
+}
+
+.toolLinks .title h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.toolLinks .links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "col1 col2 col3";
+    padding: 30px 0px;
+}
+
+.toolLinks .links .col1{
+    grid-area: col1;
+}
+.toolLinks .links .col1 .link a{
+    display: flex;
+}
+.toolLinks .links .col1 .link a p{
+    border: none;
+    color: #7e7672;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.toolLinks .links .col1 .link .iconTick{
+    color: #2DCE89;
+}
+
+.toolLinks .links .col2{
+    grid-area: col2;
+}
+.toolLinks .links .col2 .link a{
+    display: flex;
+}
+.toolLinks .links .col2 .link a p{
+    border: none;
+    color: #7e7672;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.toolLinks .links .col2 .link .iconTick{
+    color: #2DCE89;
+}
+
+.toolLinks .links .col3{
+    grid-area: col3;
+}
+.toolLinks .links .col3 .link a{
+    display: flex;
+}
+.toolLinks .links .col3 .link a p{
+    border: none;
+    color: #7e7672;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.toolLinks .links .col3 .link .iconTick{
+    color: #2DCE89;
+}
